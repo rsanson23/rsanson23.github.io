@@ -31,7 +31,7 @@ body {
     transition: 0.5s;
     position: fixed;
     overflow-x: hidden;
-    background-color: rgb(70 , 70 , 70);
+    background-color: rgba(70 , 70 , 70, 0);
 }
 
 .sideNavContent {
@@ -51,7 +51,7 @@ body {
 
 #side-btn {
     color: rgb(250, 235, 215);
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(70, 70, 70, 0);
     display: block;
     width: 20px;
     font-size: 20px;

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Projects</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./../style.css">
+        <link rel="stylesheet" href="./meb_style.css">
+        <script type="text/javascript" src="./../scripts/sideNav.js"></script>
+        <script type="text/javascript" src="./scripts/eightballmsg.js"></script>
+    </head>
+    <body onload="createTriangleMessage()">
+        <div class="navbar">
+            <a href="./../index.html" alt="Home">Home</a>
+            <a href="./../projects.html" alt="Projects">Projects</a>
+        </div>
+        <div id="sideNavDiv">
+            <button id="side-btn" onclick="openSideNav()">+</button>
+            <h5 class="sideNavContent">> Javascript Projects</h5>
+            <a class="sideNavContent navLink" href="./../js/magiceightball.html">Magic Eight Ball</a>
+            <h5 class="sideNavContent">> React JS Projects</h5>
+            <a class="sideNavContent navLink" href="./../react/minesweeper.html">Minesweeper</a>
+        </div>
+        <div id="projectDiv">
+            <div id="eightBallDiv">
+                <h1 id="projectTitle">Magic Eigth Ball Sim</h1>
+                <br />
+                <div id="eightball">
+                    <div id="triangle">
+                        <span class="triMessage"></span>
+                        <span class="triMessage"></span>
+                        <span class="triMessage"></span>
+                        <span class="triMessage"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

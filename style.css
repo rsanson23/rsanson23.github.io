@@ -6,6 +6,9 @@ body {
     display: inline-block;
     height: 28px;
     width: 100%;
+    position: fixed;
+    top: 9px;
+    left: 0;
     border-bottom: 1px solid rgb(250, 235, 215);
 }
 
@@ -19,4 +22,55 @@ body {
 
 .navbar a:hover {
     background-color: rgb(0, 0, 0);
+}
+
+#sideNavDiv {
+    left: 0;
+    top: 40px;
+    width: 20px;
+    transition: 0.5s;
+    position: fixed;
+    overflow-x: hidden;
+    background-color: rgb(70 , 70 , 70);
+}
+
+.sideNavContent {
+    color: rgb(250, 235, 215);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10pt;
+    display: block;
+    visibility: hidden;
+    margin: 2px;
+    white-space: nowrap;
+    transition: 0.2s;
+}
+
+.navLink {
+    text-indent: 10px;
+}
+
+#side-btn {
+    color: rgb(250, 235, 215);
+    background-color: rgb(70, 70, 70);
+    display: block;
+    width: 20px;
+    font-size: 20px;
+    border: none;
+    padding: 0px;
+    transition: 0.5s;
+}
+
+#projectDiv {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+#projectTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25pt;
+    font-weight: bold;
+    color: rgb(250, 235, 215);
 }

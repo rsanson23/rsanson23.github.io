@@ -21,10 +21,20 @@
     background-size: cover;
 }
 
-#genBtn {
+#genBtnDiv {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#genBtn {
+    background-color: rgb(70, 70, 70);
+    color: rgb(250, 235, 215);
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 20%;
 }
 
 .triMessage {

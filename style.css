@@ -72,10 +72,44 @@ a.sideNavContent:hover {
 
 .post {
     background-image: url('imgs/back_post.png');
+    background-repeat: repeat;
     border-radius: 15px;
+    padding: 15px;
     border: 2px solid rgb(35, 35, 35);
     line-height: 1.5;
     max-width: 500px;
     min-width: 300px;
+    margin-top: 20px;
+    margin-left: 210px;
+}
 
+.post hr {
+    border-width: 1px;
+    border-style: solid;
+    color: rgb(165, 162, 158);
+}
+
+.post-title {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: -1px;
+    color: rgb(168, 110, 44);
+    font-size: 18px;
+}
+
+.post-content {
+    font-weight: thin;
+    font-family: Helvetica, sans-serif;
+    color: rgb(250, 235, 215);
+    font-size: 12px;
+}
+
+.post-date {
+    font-weight: thin;
+    font-family: Helvetica, sans-serif;
+    color: rgb(165, 162, 158);
+    font-size: 10px;
+    letter-spacing: 5px;
+    float: right;
+    padding-top: 5px;
 }

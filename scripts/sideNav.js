@@ -7,6 +7,7 @@ const openSideNav = () => {
     document.getElementById('side-btn').style.marginLeft = "180px";
     document.getElementById('side-btn').style.backgroundColor = "rgba(70, 70, 70, 0.7)"
     document.getElementById('side-btn').setAttribute("onclick", "javascript: closeSideNav();");
+    document.getElementById('content').style.marginLeft = "210px";
     var content = document.getElementsByClassName('sideNavContent');
 
     for (let i = 0; i < content.length; i++) {
@@ -24,6 +25,7 @@ const closeSideNav = () => {
     document.getElementById('side-btn').style.marginLeft = "0";
     document.getElementById('side-btn').style.backgroundColor = "rgba(70, 70, 70, 0)"
     document.getElementById('side-btn').setAttribute("onclick", "javascript: openSideNav();");
+    document.getElementById('content').style.marginLeft = "50px";
 
     var content = document.getElementsByClassName('sideNavContent');
 

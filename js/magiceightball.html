@@ -18,25 +18,27 @@
             <h5 class="sideNavContent">> React JS Projects</h5>
             <a class="sideNavContent navLink" href="../react/minesweeper.html">Minesweeper</a>
         </div>
-        <div id="projectDiv">
-            <div id="eightBallDiv">
-                <h1 id="projectTitle">Magic Eight Ball Sim</h1>
-                <br />
-                <div id="eightball">
-                    <div id="triangle">
-                        <span class="triMessage"></span>
-                        <span class="triMessage"></span>
-                        <span class="triMessage"></span>
-                        <span class="triMessage"></span>
+        <main id='content'>
+            <div id="projectDiv">
+                <div id="eightBallDiv">
+                    <h1 id="projectTitle">Magic Eight Ball Sim</h1>
+                    <br />
+                    <div id="eightball">
+                        <div id="triangle">
+                            <span class="triMessage"></span>
+                            <span class="triMessage"></span>
+                            <span class="triMessage"></span>
+                            <span class="triMessage"></span>
+                        </div>
                     </div>
                 </div>
+                <br />
+                <div id="genBtnDiv">
+                    <button type="button" id="genBtn" onclick="createTriangleMessage()">
+                        Shake Ball
+                    </button>
+                </div>
             </div>
-            <br />
-            <div id="genBtnDiv">
-                <button type="button" id="genBtn" onclick="createTriangleMessage()">
-                    Shake Ball
-                </button>
-            </div>
-        </div>
+        </main>
     </body>
 </html>

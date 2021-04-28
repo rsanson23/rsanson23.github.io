@@ -2,7 +2,7 @@
     width: 400px; 
     height: 400px; 
     z-index: 0; 
-    background-image: url('./imgs/eightball.png');
+    background-image: url('imgs/eightball.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +34,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
     border: 1px solid black;
-    border-radius: 20%;
+    border-radius: 15px;
 }
 
 .triMessage {

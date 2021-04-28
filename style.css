@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(38, 38, 38);
+    background-color: #262626;
     background-image: url('imgs/back_corner.png');
     background-position: left top;
     background-repeat: no-repeat;
@@ -68,4 +68,14 @@ a.sideNavContent:hover {
     font-size: 25pt;
     font-weight: bold;
     color: rgb(250, 235, 215);
+}
+
+.post {
+    background-image: url('imgs/back_post.png');
+    border-radius: 15px;
+    border: 2px solid rgb(35, 35, 35);
+    line-height: 1.5;
+    max-width: 500px;
+    min-width: 300px;
+
 }
